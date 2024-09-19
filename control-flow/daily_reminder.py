@@ -1,20 +1,20 @@
-task=input("Enter a task description: ")
-priority=input("Enter task priority (high/medium/low): ")
-time_bound=input("Is the task time bound? (yes/no): ")
+Task=input("Enter a task description: ").lower()
+Priority=input("Enter task priority (high/medium/low): ").lower()
+Time_bound=input("Is the task time bound? (yes/no): ").lower()
 
-match priority:
+match Priority:
     case "high":
-        if time_bound:
-            print(f"Reminder: {task} is a high priority task that requires immediate attention today!")
-        elif not time_bound:
-            print("Reminder:Schedule {task} conveniently")
+        if Time_bound:
+            print(f"Reminder: {Task} is a high priority task that requires immediate attention today!")
+        elif not Time_bound:
+            print("Reminder:Schedule {Task} conveniently")
     case "medium":
-        if time_bound:
-            print(f"Reminder:Perform {task} before day ends")
-        elif not time_bound:
-            print("Reminder:Schedule {task} conveniently")
+        if Time_bound:
+            print(f"Reminder:Perform {Task} before day ends")
+        elif not Time_bound:
+            print("Reminder:Schedule {Task} conveniently")
     case "low" :
-        if time_bound:
-            print(f"Note: {task} is a low priority task. Consider completing it when you have free time.")
-        elif not time_bound:
-            print(f"Reminder:Schedule {task} conveniently")
+        if Time_bound:
+            print(f"Note: {Task} is a low priority task. Consider completing it when you have free time.")
+        elif not Time_bound:
+            print(f"Reminder:Schedule {Task} conveniently")
