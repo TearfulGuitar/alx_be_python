@@ -2,8 +2,9 @@
 
 # Prompt the user for task details
 task= input("Enter task : ")
-priority=input("Priority (high, medium, low): ").lower()
-time_bound=input("Is the task time-bound? (yes or no): ").lower()
+time_bound= input("Is the task time-bound? (yes or no): ").lower()
+priority= input("Priority (high, medium, low): ").lower()
+
 
 
 
