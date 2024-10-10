@@ -20,4 +20,4 @@ class BankAccount:
         """Prints the current account balance."""
         self.display_balance
 
-        return 'Current balance: ${self._account_balance:.2f}'
+        return ['Current balance: ${self._account_balance:.2f}']
