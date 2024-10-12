@@ -3,9 +3,7 @@ import math
 
 class Shape:
     def __init__(self,area) :
-        pass
-
-        raise Exception ;NotImplementedError
+        pass      
 
 class Rectangle (Shape):
     def __init__(self, length,width):
