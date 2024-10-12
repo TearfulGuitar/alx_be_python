@@ -5,12 +5,11 @@ class Calculator:
         pass
 
     @staticmethod
-    def add(a, b):
-        return a+b
-    
+    def add(x, y):
+        return x + y
+
     @classmethod
-    def multiply(cls,a, b):
-        print (f"Calculation_type: {cls.calculation_type}")
-        return a*b
-    
+    def multiply(cls, x, y):
+        print(f"Calculation type: {cls.calculation_type}")
+        return x * y
     
