@@ -14,7 +14,3 @@ class Book:
     def _del_(self):
         print (f"Deleting (title of the book)")
     
-
-book1 = Book ("Harry Potter,J.K Rowlings,2002")
-print (book1)
-print (repr(book1))
